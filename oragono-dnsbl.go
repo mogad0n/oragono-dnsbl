@@ -227,6 +227,7 @@ func run() (output IPScriptOutput, err error) {
 	}
 
 	output.Result = IPAccepted
+	output.BanMessage = "Error"
 	return
 }
 
